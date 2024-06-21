@@ -20,6 +20,7 @@ jobs:
           scope: '@Eshmanski'
       - run: ls
       - run: cd ./app-extension
+      - run: ls
       - run: npm install
       - run: npm publish
         env:
