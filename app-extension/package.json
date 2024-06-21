@@ -1,6 +1,6 @@
 {
   "name": "@eshmanski/quasar-app-extension-lib",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "A Quasar App Extension",
   "author": "Pavel Eshmanski <Eshmanski@gmail.com>",
   "license": "MIT",
@@ -15,7 +15,7 @@
   "bugs": "",
   "homepage": "",
   "dependencies": {
-    "@eshmanski/quasar-ui-lib": "^0.0.1"
+    "@eshmanski/quasar-ui-lib": "^0.0.4"
   },
   "engines": {
     "node": ">= 8.9.0",

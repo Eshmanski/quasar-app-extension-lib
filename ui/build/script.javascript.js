@@ -26,7 +26,6 @@ const rollupPlugins = [
     extensions: ['.js', '.vue'],
     preferBuiltins: false
   }),
-  resolve(),
   vuePlugin({ 
     cssModulesOptions: {
       generateScopedName: '[local]___[hash:base64:5]',
