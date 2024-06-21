@@ -7,7 +7,7 @@
 
 function extendConf (conf, api) {
   // register our boot file
-  conf.boot.push('~quasar-app-extension-lib/src/boot/register.js')
+  conf.boot.push('~@eshmanski/quasar-app-extension-lib/src/boot/register.js')
 
   console.log('Plugins: ', conf.framework.plugins)
 
