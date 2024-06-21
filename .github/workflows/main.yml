@@ -20,6 +20,8 @@ jobs:
           scope: '@Eshmanski'
       - run: ls
       - run: cd ./ui && npm install && npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - run: cd ./app-extension && npm install && npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
