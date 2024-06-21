@@ -1,0 +1,10 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  quasar-ui-lib:
+    specifier: link:C:/Users/Kuraj/Desktop/Prog/Quasar/quasar-app-extension-lib/ui
+    version: link:../ui
